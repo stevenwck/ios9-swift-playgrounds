@@ -41,4 +41,26 @@ if (numInt*1)>numInt2 {
 }
 
 
+// Here's how to do AND (&&) and OR (||)
+var myAccountBalance = 1000.00
+var myWifesAccountBalance = 2000.00
+var priceOfItem = 1200.00
+
+if myAccountBalance > priceOfItem && myWifesAccountBalance > priceOfItem {
+    print ("Either my wife or I could afford the item")
+} else {
+    print ("Only one of us could afford the item")
+}
+
+if myAccountBalance > priceOfItem || myWifesAccountBalance > priceOfItem {
+    print ("One of us could afford the item")
+} else {
+    print ("None of us could afford the item")
+}
+
+
+
+
+
+
 
