@@ -63,4 +63,3 @@ if myAccountBalance > priceOfItem || myWifesAccountBalance > priceOfItem {
 
 
 
-
