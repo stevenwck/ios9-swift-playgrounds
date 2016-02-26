@@ -60,6 +60,44 @@ if myAccountBalance > priceOfItem || myWifesAccountBalance > priceOfItem {
 
 
 
+// Here's how you do Arrays
+// Array Literal
+var names = ["Steven", "Ida", "Zachary", "Kimberley"]
+
+// Declare the type inside [] to indicate that it is an array of that type
+var names2: [String]
+// initializing an empty array
+names2 = [String]()
+// declaring the number of items in the array and initialising the default values.
+var top3colours = [String](count:3, repeatedValue: "No Colour")
+
+// You can even have mixed types in an array, but don't do it.
+var mixedTypes = ["This is a String", 123, "That was an Int", true, false, "Those were booleans"]
+
+// accessing arrays
+top3colours[0] = "Blue"
+var myFavouriteColour = "My favourite colour is \(top3colours[0])."
+
+// adding stuff to arrays
+var favCars = [String]()
+favCars.append("BMW M3")
+favCars.append("Ferrari F40")
+favCars.append("Toyota Corolla")
+
+// removing stuff from arrays
+favCars.removeAtIndex(2)
+favCars.removeLast()
+
+favCars.append("Chevy Camaro")
+favCars.append("Audi S7")
+
+// to insert at a specific place in the array...
+favCars.insert("Toyota Corolla",atIndex: 1)
+
+
+
+
+
 
 
 
