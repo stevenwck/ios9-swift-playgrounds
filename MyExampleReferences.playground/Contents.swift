@@ -94,10 +94,39 @@ favCars.append("Audi S7")
 // to insert at a specific place in the array...
 favCars.insert("Toyota Corolla",atIndex: 1)
 
+// ************* Loops *************
+
+// Here's how you do For Loops
+var ages = [21,31,41,51,61]
+
+for var x = 0; x < ages.count; x++ {
+    if ages[x] > 50 {
+        print("Person number \(x+1) is older than 50 years old")
+    }
+    
+    if ages[x] > 60 {
+        print("Person number \(x+1) is older than 50 years old")
+    }
+}
 
 
+// Here's how you do Repeat loops
+var i = 0
+repeat {
+    if ages[i] > 50 {
+        print("Person number \(i+1) is older than 50 years old")
+    }
+    i++
+} while i < ages.count
 
-
+// Here's how you can directly iterate through a collection
+var idx = 1
+for personAge in ages {
+    if personAge > 50 {
+        print("Person Number \(idx) is older than 50 years old")
+    }
+    idx++
+}
 
 
 
